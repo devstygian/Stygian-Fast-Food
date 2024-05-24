@@ -7,7 +7,8 @@
 
 body {
     min-width: 300px;
-    background-color: #0000003a;
+    background-color: #000000;
+    color:#eae3e3
 }
 
 
@@ -21,7 +22,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    background-color: #0000009c;
+    background-color: #989898;
 
 
 }
@@ -281,7 +282,7 @@ a {
 
 .btn-menu1 {
     margin-top: 20px;
-    border: 1px #000000 solid;
+    border: 1px #fa7cbb solid;
     background-color: #ff4a03;
     border-radius: 30%;
     padding: 10px;
@@ -299,7 +300,7 @@ a {
 
 #custom-orders {
     margin-top: 100px;
-    background: hsl(0, 0%, 0%);
+    background: hsl(0, 0%, 56%);
     padding: 50px;
     text-align: center;
 }
@@ -377,6 +378,25 @@ a {
     }
 }
 
+.About{
+    border-top: #fa9464 2px solid;
+    margin-top: 50px;
+}
+.owner {
+    float: left;
+    margin-right: 20px;
+    padding: 50px 50px;
+   
+}
+.AboutUs{
+    padding-top: 50px;
+    font-size: 18px;
+    text-align: center;
+    word-spacing: 2px;
+}
+.AboutUs p{
+    padding: 20px 10px;
+}
 
 
 .container1 {
@@ -440,19 +460,110 @@ a {
     }
 }
 
+/** E Mail */
+
+ .container3 {
 
 
+     margin-left: auto;
+     margin-right: auto;
+    
+     padding: 30%;
+     justify-content: center;
+     display: flex;
+     text-align: center;
+    border-top: #fa9464 3px solid;
+    
+    padding-bottom: 50px;
+
+ }
+
+ .contact {
+     text-align: center;
+     font-weight: bolder;
+     font-size: 50px;
+     margin-top: -60%;
+     margin-bottom: 5%;
+     color: #e4dada;
+
+ }
+
+ .input,
+ .msg .area {
+     width: 100%;
+     padding: 2%;
+     /*box-sizing: border-box;*/
+     margin-bottom: 25px;
+     border: 2px solid #3c7979;
+     font-size: 15px;
+     border-radius: 5px;
+     outline: none;
+     transform: all 0.5s ease;
+     background-color: transparent;
+     color: rgb(126, 126, 126);
+ }
+
+ .base .input {
+     width: 48%;
+     float: left;
+     margin-right: 4%;
+ }
+
+ .base .input:last-child {
+     margin-right: 0;
+
+ }
+
+ .msg .area {
+     height: 150px;
+
+ }
+
+ .sendEmail {
+     text-align: center;
+ }
+
+ .submit {
+     padding: 10px 10px;
+     width: 30%;
+     background: #545454;
+     height: 50%;
+     line-height: 180%;
+     color: rgb(255, 255, 255);
+     border: 0;
+     font-size: 100%;
+     font-weight: bold;
+     outline: none;
+     text-transform: uppercase;
+     text-align: center;
+     border-radius: 50px;
+     border-right: 50%;
+    
+
+ }
+
+ .submit:hover {
+     color: #ff5e00;
+
+ }
+
+ .input:focus,
+ .msg .area:focus {
+     border: 2px solid #ff0000;
+ }
+
+/** Footer */
 
 .footer {
 
     margin-top: 0;
     padding: 20px 0;
-
+    color: #7a7a7a;
 }
 
 .copy {
     margin-top: 30px;
-    color: #000000;
+    color: #b6b6b6;
     text-align: center;
 }
 

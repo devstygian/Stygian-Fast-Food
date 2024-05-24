@@ -34,6 +34,8 @@
 
                         <li><a href="#"><i class="fa-solid fa-address-card"></i> About</a></li>
                     
+                        <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+
                         <div class="closeMenu"><i class="fa fa-times"></i></div>
                         <span class="icons">
                     </ul>
@@ -64,22 +66,39 @@
         <section>
             <div class="container" id="learn"></div>
             <header class="major" style="text-align: center;">
-                <h2 class="boldword">Burger rice, Hotdog, and more</h2>
+                <h2 class="boldword">Burger, Pizza, and more</h2>
                 <p class="text">Explore Most Affordable Delights at Food House! Treat yourself to our flavorful creations without breaking the
                 bank.<br /> Don't miss out on our signature soy-chili-garlic sauce!<br>
                 <strong>"Yummmmmmm."</strong>
             </p>
 
-         
-                
-                
                 <button class="btn-menu1"><a href="pages/menu.html"><i class="fa-solid fa-utensils"> View
                             Menu</i></a></button>
             </header>
 
         </section>
 
+        <div class="About">
+            <div class="owner">
+                <img src="/Coffee-Owner.jfif" width="380" height="480">
+            </div>
+            <div class="AboutUs">
+                <h2>About Us</h2>
+                <p>Welcome to HUA Fast Food! We're all about quick, delicious meals that you can enjoy anytime,<br> anywhere. Here's a
+                bit about who we are:
+                </p>
 
+                <h2>Our Story</h2>
+                <p>We started HUA Fast Food because we believe fast food should be both fast and tasty. Back in [Year], <br>we opened
+                our doors with one goal: to serve up great flavors without the wait. Since then, we've become a <br>favorite spot for food
+                lovers on the move.</p>
+
+                <h2>What We Believe</h2>
+                <p>At HUA Fast Food, we think good food doesn't have to be complicated. That's why we focus on using quality<br>
+                ingredients and simple recipes to create dishes you'll love.</p>
+            </div>
+
+        </div>
         <!-- CTA -->
         <section id="custom-orders" class="order-box">
             <h2>Hua Food House</h2>
@@ -124,6 +143,46 @@
             </div>
         </section>
 
+        <p id="contact"></p>
+        <div class="container3" >
+            <form action="https://formspree.io/f/mqkongew" method="POST">
+                <p class="contact" >Book Table</p>
+                <div class="base">
+                    <label>
+                        <input class="input" type="text" name="Name" placeholder="Name" required>
+                        <input class="input" type="text" name="Name" placeholder="Last Name" required>
+                    </label>
+                    <label>
+                        <input class="input" type="number" name="Phone" placeholder="Phone" required>
+                        <input class="input" type="Email" name="Email" placeholder="Email" required>
+                    </label>
+                    <label>
+                        <input class="input" type="date" name="date" placeholder="date" required>
+                        <input class="input" type="time" name="time" placeholder="time" required>
+                    </label>
+        
+                </div>
+                <div class="msg">
+                    <label>
+                        <textarea class="area" id="message" name="Message" placeholder="Additional notes.."></textarea>
+                    </label>
+                </div>
+                <div class="sendEmail">
+                    <button class="submit" type="submit" id="submit-button">Send</button>
+                </div>
+            </form>
+        
+        </div>
+        
+        <script>
+            window.onbeforeunload = () => {
+                for (const form of document.getElementsByTagName('form')) {
+                    form.reset();
+                }
+            }
+        </script>
+
+      
         
         <section class="footer">
             <div class="social">
