@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="javascript" href="scrip.js" />
+
+    <script src="https://kit.fontawesome.com/f02a36f28e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="background-img">
+        <div id="Header" class="Main">
+
+            <header id="Header" class="head">
+                <nav id="nav">
+                    <div class="logo">
+                        
+                            <h3 class="Name">Hua Food House</h3>
+                        
+                    </div>
+                    <div class="openMenu"><i class="fa fa-bars"></i></div>
+
+                    <ul class="mainMenu">
+                        <li><a href="#"><i class="fa-sharp fa-solid fa-house"></i> Home</a></li>
+
+                        <li><a href="menu/menu.html"><i class="fa-solid fa-utensils"></i> Menu</a></li>
+
+                        <li><a href="#"><i class="fa-solid fa-address-card"></i> About</a></li>
+                    
+                        <div class="closeMenu"><i class="fa fa-times"></i></div>
+                        <span class="icons">
+                    </ul>
+                </nav>
+                <script src="./app.js"></script>
+
+                <section class="banners"></section>
+                <script type="text/javascript">
+                    window.addEventListener("scroll", function () {
+                        var header = document.querySelector("header");
+                        header.classList.toggle("sticky", window.scrollY > 10);
+                    })
+                </script>
+            </header>
+
+
+            <section id="banner">
+                <div class="word1">
+                    <h2>Hua Makes Everything Better.</h2>
+                    <p>Delivering satiety to your special tummy</p>
+
+                    <a class="learnMore" href="#learn" class="button large scrolly">Learn More</a>
+
+                </div>
+            </section>
+        </div>
+
+        <section>
+            <div class="container" id="learn"></div>
+            <header class="major" style="text-align: center;">
+                <h2 class="boldword">Burger rice, Hotdog, and more</h2>
+                <p class="text">Explore Most Affordable Delights at Food House! Treat yourself to our flavorful creations without breaking the
+                bank.<br /> Don't miss out on our signature soy-chili-garlic sauce!<br>
+                <strong>"Yummmmmmm."</strong>
+            </p>
+
+         
+                
+                
+                <button class="btn-menu1"><a href="pages/menu.html"><i class="fa-solid fa-utensils"> View
+                            Menu</i></a></button>
+            </header>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section id="custom-orders" class="order-box">
+            <h2>Hua Food House</h2>
+            <ul class="actions">
+                <li><a href="pages/menu.html" class="con1"><i class="fa-solid fa-cart-shopping"></i> Order Now!</a></li>
+                <li><a href="tel:+970-216-9278" class="con2">0970-***-****</a></li>
+            </ul>
+        </section>
+
+        <!--special events-->
+        <section id="special-events" class="wrapper style2">
+            <div class="container1">
+                <h2>Special Events</h2>
+                <p class="p1">Your special occasion is also special to us. Here's how we do our part to add that little
+                    extra sweetness to your event:</p>
+                <div class="row gtr-uniform">
+                    <div class="box-special">
+                        <section>
+                            <div class="logo3"><i class="fa-solid fa-phone"></i></div>
+                            <h3>We collaborate</h3>
+                            <p>We work out the details with you so you get exactly what you bargain for. We even set a
+                                quote up-front and offer packages to fit your budget.</p>
+                        </section>
+                    </div>
+                    <div class="box-special">
+                        <section>
+                            <div class="logo3"><i class="fa-solid fa-list-check"></i></div>
+                            <h3>We prioritize you</h3>
+                            <p>We work hard to fulfill your order accurately and always in time for your occasion so
+                                your sweets are as fresh as can be.</p>
+                        </section>
+                    </div>
+                    <div class="box-special">
+                        <section>
+                            <div class="logo3"><i class="fa-solid fa-truck"></i></div>
+                            <h3>We deliver to you</h3>
+                            <p>We take care of the rest so you are free to entertain guests or lounge in your sweatpants
+                                until your sweets reach your door.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="footer">
+            <div class="social">
+
+                <ul class="menu2">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Licensing</a></li>
+                    
+                </ul>
+
+
+                <p class="copy">DevStygian © 2024 | ALL RIGHTS RESERVED</p>
+            </div>
+        </section>
+    </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D62QQLL6J4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D62QQLL6J4');
+    </script>
+</body>
+
+</html>
