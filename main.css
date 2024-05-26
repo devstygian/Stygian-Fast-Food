@@ -22,7 +22,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    background-color: #989898;
+    background-color: #e9e5e5;
 
 
 }
@@ -39,15 +39,15 @@ nav .mainMenu li a {
     padding: 15px 20px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #070707;
     font-size: 18px;
     transition: 0.2s ease;
 
 }
 
 nav .mainMenu li a:hover {
-    color: rgb(255, 255, 255);
-    border: #eee6e6 2px solid;
+    color: rgb(236, 16, 16);
+    border: #1f1e1e 2px solid;
     border-radius: 20px;
     padding: 10px 20px;
     
@@ -215,7 +215,7 @@ nav .mainMenu .closeMenu,
 .Name {
     margin-left: 30px;
     text-decoration: none;
-    color: #ffffff;
+    color: #0e0d0d;
     font-size: 30px;
 }
 .word1 {
@@ -300,7 +300,7 @@ a {
 
 #custom-orders {
     margin-top: 100px;
-    background: hsl(0, 0%, 56%);
+    background: hsl(0, 2%, 78%);
     padding: 50px;
     text-align: center;
 }
@@ -308,7 +308,7 @@ a {
 #custom-orders h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(15, 15, 15);
 }
 
 #custom-orders .actions {
@@ -324,15 +324,15 @@ a {
 }
 
 .con1 {
-    border: #ffffff 1px solid;
+    border: #141414 1px solid;
     padding: 10px 20px;
-    color: #ffffff;
+    color: #1a1919;
 }
 
 .con2 {
-    color: #ffffff;
+    color: #141414;
     padding: 10px 20px;
-    border: #ffffff 1px solid;
+    border: #1a1919 1px solid;
 }
 
 /* Responsive Styles */
